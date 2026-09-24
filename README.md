@@ -5,6 +5,7 @@ SQL | PostgreSQL | Data Cleaning | Exploratory Data Analysis | Inventory Analyti
 An SQL-based analysis of Zepto product inventory data to uncover insights across pricing, discounts, stock availability, inventory value, and product assortment.
 
 This analysis demonstrates how raw product data can be cleaned, transformed, and analyzed to answer practical inventory and pricing business questions.
+
 -----
 
 ## Executive Summary
