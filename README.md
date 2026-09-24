@@ -31,17 +31,16 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 
 ## Table of Contents
 
-* [Business Problem](#-business-problem)
-* [Project Objective](#-project-objective)
-* [Key Stakeholders](#-key-stakeholders)
-* [Project Workflow](#-project-workflow)
-* [Dataset Structure](#-dataset-structure)
-* [Data Exploration & Quality Checks](#-data-exploration--quality-checks)
-* [Data Cleaning](#-data-cleaning)
-* [Analysis & Business Questions](#-analysis--business-questions)
-* [Business Recommendations](#-business-recommendations)
-* [Conclusion](#-conclusion)
-
+* [Business Problem](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#business-problem)
+* [Project Objective](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#project-objective)
+* [Key Stakeholders](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#key-stakeholders)
+* [Project Workflow](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#project-workflow)
+* [Dataset Structure](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#dataset-structure)
+* [Data Exploration & Quality Checks](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#data-exploration--quality-checks)
+* [Data Cleaning](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#data-cleaning)
+* [Analysis & Business Questions](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#analysis--business-questions)
+* [Business Recommendations](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#business-recommendations)
+* [Conclusion](https://github.com/akankshapillaii/Zepto-Inventory-Analysis/blob/main/README.md#conclusion)
 -----------
 
 ## Business Problem
