@@ -543,28 +543,7 @@ This project demonstrates practical SQL concepts including:
 * Derived metrics
 * Data cleaning
 * Inventory analysis
-* Category-level aggregation
-
----
-
-# 📁 Repository Structure
-
-```text
-Zepto-Inventory-Analysis/
-│
-├── Zepto Inventory Analysis.sql
-│
-├── README.md
-│
-└── Screenshots/
-    ├── data-exploration.png
-    ├── data-cleaning.png
-    ├── discount-analysis.png
-    ├── inventory-analysis.png
-    └── category-analysis.png
-```
-
----
+* Category-level aggregation\
 
 # 📌 Project Highlights
 
@@ -589,17 +568,3 @@ The Zepto Inventory Analysis demonstrates how SQL can be used to move from **raw
 Rather than focusing only on individual products, the project connects multiple dimensions of the catalog—including **pricing, discounts, availability, quantity, weight, and category**—to answer practical inventory and commercial questions.
 
 The analysis establishes a foundation for deeper analytics such as **inventory turnover, margin analysis, demand forecasting, stock-out impact, discount effectiveness, and category profitability** when additional sales and operational data become available.
-
----
-
-## 📂 Source File
-
-The complete SQL analysis is available in:
-
-**`Zepto Inventory Analysis.sql`**
-
-## The SQL script contains the table creation, data-quality checks, cleaning steps, and all analytical queries used in this project.
-
-## 👤 About
-
-This project is part of my **Data Analytics portfolio**, demonstrating practical application of SQL for **data cleaning, exploratory analysis, inventory analytics, pricing analysis, and business-oriented problem solving**.
