@@ -1,9 +1,10 @@
 # Zepto-Inventory-Analysis
 
-An SQL-based inventory and product analysis project using a Zepto product dataset to evaluate **pricing, discounts, stock availability, inventory value, product weight, and category-level performance**.
+SQL | PostgreSQL | Data Cleaning | Exploratory Data Analysis | Inventory Analytics
 
-The analysis focuses on transforming raw product-level data into structured business insights that can support **inventory planning, pricing decisions, discount evaluation, and product assortment management**.
+An SQL-based analysis of Zepto product inventory data to uncover insights across pricing, discounts, stock availability, inventory value, and product assortment.
 
+This analysis demonstrates how raw product data can be cleaned, transformed, and analyzed to answer practical inventory and pricing business questions.
 -----
 
 ## Executive Summary
@@ -38,7 +39,6 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 * [Data Cleaning](#-data-cleaning)
 * [Analysis & Business Questions](#-analysis--business-questions)
 * [Business Recommendations](#-business-recommendations)
-* [Repository Structure](#-repository-structure)
 * [Conclusion](#-conclusion)
 
 -----------
@@ -477,22 +477,6 @@ Products above ₹500 with discounts below 10% should be reviewed alongside thei
 Category-level estimated revenue should be reviewed together with total inventory weight.
 
 **Goal:** Understand not only where financial inventory is concentrated, but also where physical inventory requirements may be highest.
-
----
-
-# Project Highlights
-
-| Area                 | Analysis                                                |
-| -------------------- | ------------------------------------------------------- |
-| Data Exploration     | Record count, sample data, categories, stock status     |
-| Data Quality         | NULL checks, column correction, duplicate product names |
-| Data Cleaning        | Invalid MRP removal, price conversion                   |
-| Pricing              | MRP, discounted selling price, price per gram           |
-| Discount Analysis    | Top discounts, average category discounts               |
-| Inventory            | Available quantity, stock status, inventory weight      |
-| Revenue Analysis     | Estimated revenue by category                           |
-| Product Segmentation | Low, Medium, Bulk weight categories                     |
-| Business Analysis    | Product, category, pricing, and inventory insights      |
 
 ---
 
