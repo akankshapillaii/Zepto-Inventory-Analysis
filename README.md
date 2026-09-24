@@ -38,7 +38,6 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 * [Data Cleaning](#-data-cleaning)
 * [Analysis & Business Questions](#-analysis--business-questions)
 * [Business Recommendations](#-business-recommendations)
-* [SQL Concepts Used](#-sql-concepts-used)
 * [Repository Structure](#-repository-structure)
 * [Conclusion](#-conclusion)
 
@@ -480,35 +479,6 @@ Category-level estimated revenue should be reviewed together with total inventor
 **Goal:** Understand not only where financial inventory is concentrated, but also where physical inventory requirements may be highest.
 
 ---
-
-# SQL Concepts Used
-
-This project demonstrates practical SQL concepts including:
-
-* `CREATE TABLE`
-* `ALTER TABLE`
-* `RENAME COLUMN`
-* `SELECT`
-* `DISTINCT`
-* `WHERE`
-* `AND` / `OR`
-* `GROUP BY`
-* `HAVING`
-* `ORDER BY`
-* `LIMIT`
-* `COUNT()`
-* `SUM()`
-* `AVG()`
-* `ROUND()`
-* `CASE WHEN`
-* `UPDATE`
-* `DELETE`
-* Boolean filtering
-* Conditional aggregation
-* Derived metrics
-* Data cleaning
-* Inventory analysis
-* Category-level aggregation\
 
 # Project Highlights
 
