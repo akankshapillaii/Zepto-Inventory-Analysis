@@ -4,6 +4,8 @@ An SQL-based inventory and product analysis project using a Zepto product datase
 
 The analysis focuses on transforming raw product-level data into structured business insights that can support **inventory planning, pricing decisions, discount evaluation, and product assortment management**.
 
+-----
+
 ## Executive Summary
 
 This project uses **SQL to explore, clean, and analyze Zepto product inventory data**.
@@ -23,6 +25,8 @@ After cleaning the data, the analysis focuses on several business questions:
 
 The project demonstrates how **SQL can move from raw inventory data to business-focused analysis** through data exploration, cleaning, aggregation, filtering, and derived metrics.
 
+----------
+
 ## 📑 Table of Contents
 
 * [Business Problem](#-business-problem)
@@ -39,7 +43,9 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 * [Repository Structure](#-repository-structure)
 * [Conclusion](#-conclusion)
 
-## 🎯 Business Problem
+-----------
+
+## Business Problem
 
 A large product catalog requires continuous monitoring of **pricing, discounts, availability, and inventory levels**.
 
@@ -56,7 +62,7 @@ The objective of this project is to use SQL to convert product-level inventory d
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The analysis was designed to answer the following business questions:
 
@@ -71,7 +77,7 @@ The analysis was designed to answer the following business questions:
 
 ---
 
-## 👥 Key Stakeholders
+## Key Stakeholders
 
 ### Inventory & Operations Teams
 
@@ -95,7 +101,7 @@ Maintain data quality, SQL analysis, reporting logic, and analytical workflows.
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```text
 Raw Product Data
@@ -114,10 +120,9 @@ Category & Product Insights
         ↓
 Business Recommendations
 ```
-
 ---
 
-## 🗂 Dataset Structure
+## Dataset Structure
 
 The `zepto` table contains product-level information across pricing, inventory, availability, and product characteristics.
 
@@ -138,7 +143,7 @@ The original table definition and field structure are included directly in the S
 
 ---
 
-# 🔎 Data Exploration & Quality Checks
+# Data Exploration & Quality Checks
 
 Before performing business analysis, the dataset was examined to understand its structure and identify potential data-quality issues.
 
@@ -208,7 +213,7 @@ ORDER BY COUNT(sku_id) DESC;
 
 ---
 
-# 🧹 Data Cleaning
+# Data Cleaning
 
 Data preparation was performed before the business analysis.
 
@@ -237,7 +242,7 @@ This ensures that subsequent price analysis is interpreted in the correct moneta
 
 ---
 
-# 📊 Analysis & Business Questions
+# Analysis & Business Questions
 
 ## 1. Top 10 Best-Value Products by Discount
 
@@ -432,7 +437,7 @@ This can help operations teams understand inventory concentration and potential 
 
 ---
 
-# 🔍 Key Findings
+# Key Findings
 
 > **Note:** The SQL file contains the analytical queries but does not include the returned result sets. Therefore, the findings below describe the **business insights the analysis is designed to uncover**, rather than claiming specific numerical outcomes.
 
@@ -466,7 +471,7 @@ Analyzing both metrics together provides a more complete view of inventory compo
 
 ---
 
-# 💡 Business Recommendations
+# Business Recommendations
 
 ### 1. Prioritize High-Value Out-of-Stock Products
 
@@ -516,7 +521,7 @@ Category-level estimated revenue should be reviewed together with total inventor
 
 ---
 
-# 🛠 SQL Concepts Used
+# SQL Concepts Used
 
 This project demonstrates practical SQL concepts including:
 
@@ -545,7 +550,7 @@ This project demonstrates practical SQL concepts including:
 * Inventory analysis
 * Category-level aggregation\
 
-# 📌 Project Highlights
+# Project Highlights
 
 | Area                 | Analysis                                                |
 | -------------------- | ------------------------------------------------------- |
@@ -561,7 +566,7 @@ This project demonstrates practical SQL concepts including:
 
 ---
 
-# 🎯 Conclusion
+# Conclusion
 
 The Zepto Inventory Analysis demonstrates how SQL can be used to move from **raw product-level data to structured business analysis**.
 
