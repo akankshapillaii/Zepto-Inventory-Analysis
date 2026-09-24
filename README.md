@@ -79,7 +79,7 @@ The analysis was designed to answer the following business questions:
 
 ## Key Stakeholders
 
-**1. Inventory & Operations Teams:**
+**- Inventory & Operations Teams:**
 Monitor stock availability, inventory levels, and category-level inventory concentration.
 
 **2. Pricing Teams:**
