@@ -27,7 +27,7 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 
 ----------
 
-## 📑 Table of Contents
+## Table of Contents
 
 * [Business Problem](#-business-problem)
 * [Project Objective](#-project-objective)
@@ -37,7 +37,6 @@ The project demonstrates how **SQL can move from raw inventory data to business-
 * [Data Exploration & Quality Checks](#-data-exploration--quality-checks)
 * [Data Cleaning](#-data-cleaning)
 * [Analysis & Business Questions](#-analysis--business-questions)
-* [Key Findings](#-key-findings)
 * [Business Recommendations](#-business-recommendations)
 * [SQL Concepts Used](#-sql-concepts-used)
 * [Repository Structure](#-repository-structure)
@@ -429,40 +428,6 @@ ORDER BY total_weight;
 ### Business Use
 
 This can help operations teams understand inventory concentration and potential storage or handling requirements.
-
----
-
-# Key Findings
-
-> **Note:** The SQL file contains the analytical queries but does not include the returned result sets. Therefore, the findings below describe the **business insights the analysis is designed to uncover**, rather than claiming specific numerical outcomes.
-
-### 1. Discounting Can Reveal Promotional Opportunities
-
-The top-discount query identifies products with the highest discount percentages, creating a basis for evaluating whether discounts are concentrated in particular products or categories.
-
-### 2. High-Value Out-of-Stock Products Deserve Attention
-
-Products with higher MRP values that are simultaneously out of stock can represent potential revenue opportunities if demand exists for those products.
-
-### 3. Inventory Revenue Is Different From Sales Revenue
-
-The category revenue calculation estimates the value of currently available inventory using discounted selling price and available quantity.
-
-This should therefore be interpreted as **estimated inventory revenue potential**, rather than realized sales revenue.
-
-### 4. Price Alone Does Not Explain Product Value
-
-The price-per-gram analysis provides a more standardized comparison between products with different weights and package sizes.
-
-### 5. Discount Intensity Varies Across Categories
-
-Calculating average discount by category makes it possible to identify categories where promotional pricing is more aggressive.
-
-### 6. Physical Inventory and Monetary Inventory Tell Different Stories
-
-A category can carry substantial physical inventory weight without necessarily having the highest estimated monetary inventory value.
-
-Analyzing both metrics together provides a more complete view of inventory composition.
 
 ---
 
