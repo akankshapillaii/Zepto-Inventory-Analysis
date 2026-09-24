@@ -79,24 +79,19 @@ The analysis was designed to answer the following business questions:
 
 ## Key Stakeholders
 
-### Inventory & Operations Teams
-
+**1. Inventory & Operations Teams:**
 Monitor stock availability, inventory levels, and category-level inventory concentration.
 
-### Pricing Teams
-
+**2. Pricing Teams:**
 Evaluate MRP, selling price, discount percentages, and price-to-weight value.
 
-### Category Managers
-
+**3. Category Managers:**
 Understand category-level revenue potential, discount patterns, and inventory distribution.
 
-### Business Management
-
+**4. Business Management:**
 Use consolidated inventory and product insights to support assortment and commercial decisions.
 
-### Data / BI Teams
-
+**5. Data / BI Teams:**
 Maintain data quality, SQL analysis, reporting logic, and analytical workflows.
 
 ---
