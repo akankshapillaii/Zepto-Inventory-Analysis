@@ -80,17 +80,17 @@ The analysis was designed to answer the following business questions:
 - **Inventory & Operations Teams:**
 Monitor stock availability, inventory levels, and category-level inventory concentration.
 
-**2. Pricing Teams:**
+- **Pricing Teams:**
 Evaluate MRP, selling price, discount percentages, and price-to-weight value.
 
-**3. Category Managers:**
+- **Category Managers:**
 Understand category-level revenue potential, discount patterns, and inventory distribution.
 
-**4. Business Management:**
+- **Business Management:**
 Use consolidated inventory and product insights to support assortment and commercial decisions.
 
-**5. Data / BI Teams:**
-Maintain data quality, SQL analysis, reporting logic, and analytical workflows.
+- **Data / BI Teams:**
+Maintain data quality, SQL analysis, reporting logic, and analytical workflows
 
 ---
 
